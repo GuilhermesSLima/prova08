@@ -1,0 +1,25 @@
+
+<form (ngSubmit)="onSubmit()">
+    <div>
+        <label for="text">Item:</label>
+        <input type="text" 
+               name="text"
+               class="form-control"
+               placeholder="Adicionar item"
+               id="text"
+               [(ngModel)]="tarefa"/>
+    </div>
+    
+    <div class="mb-4">
+        <label for="categoria">Categoria:</label>
+        <select name="categoria" id="categoria" class="form-select" [(ngModel)]="categoria">
+            <option value="">Selecione uma categoria</option>
+            <option value="casa">casa</option>
+            <option value="trabalho">trabalho</option>
+            <option value="tecnologia">tecnologia</option>
+            <option value="academia">academia</option>
+        </select>
+    </div>
+    <input type="submit" value="Salvar item" class="btn btn-block mb-4" >
+    <p class="msg">Clique no item para confirmar caso já tenha comprado</p>
+</form>

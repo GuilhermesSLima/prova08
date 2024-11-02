@@ -1,0 +1,8 @@
+<div class="task"
+     (click)="onToggle(tarefa)"
+     [ngClass]="{reminder: tarefa.concluido}">
+    <h3>{{ tarefa.item }} 
+        <button (click)="onDelete(tarefa)">Apagar</button>
+    </h3>
+    <p>{{ tarefa.categoria }}</p>
+</div>

@@ -1,0 +1,16 @@
+{
+    "listas": [
+      {
+        "id": "4ffd",
+        "item": "teste",
+        "categoria": "casa",
+        "concluido": false
+      },
+      {
+        "id": "3222",
+        "item": "tenis",
+        "categoria": "casa",
+        "concluido": false
+      }
+    ]
+  }
